@@ -1,7 +1,7 @@
 # README.md
 # AWS RAG Infrastructure Terraform Module
 
-[![Terraform Registry](https://img.shields.io/badge/terraform-registry-blue.svg)](https://registry.terraform.io/modules/your-username/rag-infrastructure/aws)
+[![Terraform Registry](https://img.shields.io/badge/terraform-registry-blue.svg)](https://registry.terraform.io/modules/oigwebuike/rag-infrastructure/aws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive Terraform module for provisioning Retrieval-Augmented Generation (RAG) infrastructure on AWS. This module sets up the essential components needed to build and deploy RAG applications, including document storage, vector database, and AI model integration.
@@ -21,7 +21,7 @@ This module creates:
 
 ```hcl
 module "rag_infrastructure" {
-  source = "your-username/rag-infrastructure/aws"
+  source = "oigwebuike/rag-infrastructure/aws"
   
   name_prefix = "my-rag-app"
   
@@ -46,7 +46,7 @@ module "rag_infrastructure" {
 
 ```hcl
 module "rag_infrastructure" {
-  source = "your-username/rag-infrastructure/aws"
+  source = "oigwebuike/rag-infrastructure/aws"
   
   name_prefix = "my-rag-app"
   bucket_name = "my-unique-document-bucket"
@@ -70,7 +70,7 @@ module "rag_infrastructure" {
 
 ```hcl
 module "rag_infrastructure" {
-  source = "your-username/rag-infrastructure/aws"
+  source = "oigwebuike/rag-infrastructure/aws"
   
   name_prefix = "my-rag-app"
   
@@ -97,7 +97,7 @@ module "rag_infrastructure" {
 
 ```hcl
 module "rag_infrastructure" {
-  source = "your-username/rag-infrastructure/aws"
+  source = "oigwebuike/rag-infrastructure/aws"
   
   name_prefix = "dev-rag"
   
@@ -231,9 +231,9 @@ This module is licensed under the MIT License. See [LICENSE](LICENSE) for detail
 
 ## 📞 Support
 
-- 📚 [Documentation](https://github.com/your-username/terraform-aws-rag-infrastructure)
-- 🐛 [Issue Tracker](https://github.com/your-username/terraform-aws-rag-infrastructure/issues)
-- 💬 [Discussions](https://github.com/your-username/terraform-aws-rag-infrastructure/discussions)
+- 📚 [Documentation](https://github.com/oigwebuike/terraform-aws-rag-infrastructure)
+- 🐛 [Issue Tracker](https://github.com/oigwebuike/terraform-aws-rag-infrastructure/issues)
+- 💬 [Discussions](https://github.com/oigwebuike/terraform-aws-rag-infrastructure/discussions)
 
 ## 🙏 Acknowledgments
 
@@ -243,4 +243,4 @@ This module is licensed under the MIT License. See [LICENSE](LICENSE) for detail
 
 ---
 
-**Made with ❤️ for the AI/ML community**
+**Made with specialty for the AI/ML community**
