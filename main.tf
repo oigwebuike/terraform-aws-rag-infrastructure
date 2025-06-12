@@ -151,7 +151,7 @@ resource "aws_db_instance" "rag_vector_db" {
   # Database configuration
   engine         = "postgres"
   # engine_version = var.postgres_version
-  engine_version = data.aws_rds_engine_versions.postgresql.valid_engine_versions[0]
+  engine_version = data.aws_rds_engine_version.postgresql.version
 
   instance_class = var.db_instance_class
   
@@ -634,7 +634,7 @@ data "aws_availability_zones" "available" {
   state = "available"
 }
 
-data "aws_rds_engine_versions" "postgresql" {
+data "aws_rds_engine_version" "postgresql" {
   engine = "postgres"
   preferred_versions = ["15.7", "15.6", "15.5", "14.12", "14.11"]
 }
